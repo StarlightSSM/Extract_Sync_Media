@@ -80,7 +80,7 @@ python app.py
 - [ ] 전사 결과 요약 기능
 - [ ] 키워드 검색
 
-=================================================================================
+============================================================================
 # my-transcriber
 
 A local personal web app that transcribes uploaded lecture audio/video files (mp3/mp4) into text, with download options in TXT, SRT, PDF, or DOCX format.
