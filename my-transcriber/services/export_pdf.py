@@ -1,30 +1,58 @@
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase.cidfonts import UnicodeCIDFont
 
-def export_pdf(text, output_path, title="강의 전사본"):
-    # 한글 깨짐 방지를 위해 시스템 폰트 등록 (윈도우 맑은고딕 예시)
-    pdfmetrics.registerFont(TTFont("Malgun", "C:/Windows/Fonts/malgun.ttf"))
+FONT_NAME = "HYSMyeongJo-Medium"
+pdfmetrics.registerFont(UnicodeCIDFont(FONT_NAME))
 
+
+def wrap_text_by_width(text, font_name, font_size, max_width):
+    lines = []
+    current_line = ""
+    for char in text:
+        test_line = current_line + char
+        if pdfmetrics.stringWidth(test_line, font_name, font_size) <= max_width:
+            current_line = test_line
+        else:
+            lines.append(current_line)
+            current_line = char
+    if current_line:
+        lines.append(current_line)
+    return lines
+
+
+def export_pdf(paragraphs, output_path, title="강의 전사본"):
     c = canvas.Canvas(output_path, pagesize=A4)
     width, height = A4
-    c.setFont("Malgun", 14)
-    c.drawString(50, height - 50, title)
+    margin = 50
+    max_text_width = width - (margin * 2)
 
-    c.setFont("Malgun", 10)
-    y = height - 90
-    max_width = 90  # 줄바꿈 기준 글자 수 (대략)
+    c.setFont(FONT_NAME, 16)
+    c.drawString(margin, height - margin, title)
 
-    import textwrap
-    for line in text.split("\n"):
-        wrapped = textwrap.wrap(line, max_width) or [""]
-        for wline in wrapped:
-            if y < 50:
+    font_size = 10.5
+    c.setFont(FONT_NAME, font_size)
+    y = height - margin - 45
+    line_height = font_size * 1.5
+    paragraph_gap = font_size * 1.0  # 단락 사이 추가 여백
+
+    for para in paragraphs:
+        wrapped_lines = wrap_text_by_width(para, FONT_NAME, font_size, max_text_width) or [""]
+
+        for line in wrapped_lines:
+            if y < margin:
                 c.showPage()
-                c.setFont("Malgun", 10)
-                y = height - 50
-            c.drawString(50, y, wline)
-            y -= 15
+                c.setFont(FONT_NAME, font_size)
+                y = height - margin
+            c.drawString(margin, y, line)
+            y -= line_height
+
+        y -= paragraph_gap  # 단락 끝나면 한 줄 더 띄우기
+
+        if y < margin:
+            c.showPage()
+            c.setFont(FONT_NAME, font_size)
+            y = height - margin
 
     c.save()

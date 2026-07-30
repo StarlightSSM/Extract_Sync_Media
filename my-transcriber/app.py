@@ -42,10 +42,34 @@ def run_transcription(save_path):
         progress_state["status"] = "error"
         progress_state["error"] = str(e)
 
+def group_into_paragraphs(segments, gap_threshold=2.0):
+    """세그먼트 사이 침묵 간격이 gap_threshold(초) 이상이면 새 단락으로 분리"""
+    if not segments:
+        return []
+
+    paragraphs = []
+    current_paragraph = [segments[0]["text"]]
+
+    for i in range(1, len(segments)):
+        prev_end = segments[i - 1]["end"]
+        curr_start = segments[i]["start"]
+        gap = curr_start - prev_end
+
+        if gap >= gap_threshold:
+            paragraphs.append(" ".join(current_paragraph))
+            current_paragraph = [segments[i]["text"]]
+        else:
+            current_paragraph.append(segments[i]["text"])
+
+    if current_paragraph:
+        paragraphs.append(" ".join(current_paragraph))
+
+    return paragraphs
 
 @app.route("/")
 def home():
-    return render_template("index.html", text=latest_result["text"])
+    paragraphs = group_into_paragraphs(latest_result["segments"])
+    return render_template("index.html", text=latest_result["text"], paragraphs=paragraphs)
 
 
 @app.route("/upload", methods=["POST"])
@@ -65,11 +89,10 @@ def upload():
     save_path = os.path.join(UPLOAD_FOLDER, filename)
     file.save(save_path)
 
-    # 전사를 별도 스레드에서 실행 → 요청은 바로 응답 반환
     thread = threading.Thread(target=run_transcription, args=(save_path,))
     thread.start()
 
-    return render_template("index.html", text="", processing=True)
+    return render_template("index.html", text="", paragraphs=[], processing=True)
 
 
 @app.route("/progress")
@@ -93,9 +116,11 @@ def download(fmt):
     elif fmt == "srt":
         export_srt(segments, output_path)
     elif fmt == "docx":
-        export_docx(text, output_path)
+        paragraphs = group_into_paragraphs(segments)
+        export_docx(paragraphs, output_path)
     elif fmt == "pdf":
-        export_pdf(text, output_path)
+        paragraphs = group_into_paragraphs(segments)
+        export_pdf(paragraphs, output_path)
     else:
         return "지원하지 않는 형식입니다.", 400
 

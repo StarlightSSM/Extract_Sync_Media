@@ -14,6 +14,21 @@
             text-align: center; color: white; line-height: 24px;
             transition: width 0.3s;
         }
+        #result-paper {
+            max-width: 210mm;       /* A4 폭 기준 */
+            margin: 20px auto;
+            padding: 25mm 20mm;     /* A4 인쇄 여백과 비슷하게 */
+            background: #ffffff;
+            box-shadow: 0 0 8px rgba(0,0,0,0.15);
+            border-radius: 4px;
+            line-height: 1.8;
+            font-size: 15px;
+            color: #222;
+        }
+        #result-paper p {
+            margin-bottom: 16px;
+            text-indent: 0;
+        }
     </style>
 </head>
 <body>
@@ -31,10 +46,15 @@
     </div>
 
     <div id="result-area">
-        {% if text %}
+        {% if paragraphs %}
             <hr>
             <h2>전사 결과</h2>
-            <p>{{ text }}</p>
+            <div id="result-paper">
+                {% for para in paragraphs %}
+                    <p>{{ para }}</p>
+                {% endfor %}
+            </div>
+
             <h2>다운로드</h2>
             <a href="/download/txt">TXT 다운로드</a> |
             <a href="/download/srt">SRT 다운로드</a> |

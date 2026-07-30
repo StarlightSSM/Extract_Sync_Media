@@ -1,7 +1,13 @@
 from docx import Document
+from docx.shared import Pt
 
-def export_docx(text, output_path, title="강의 전사본"):
+
+def export_docx(paragraphs, output_path, title="강의 전사본"):
     doc = Document()
+    style = doc.styles["Normal"]
+    style.font.name = "맑은 고딕"
+
     doc.add_heading(title, level=1)
-    doc.add_paragraph(text)
+    for para in paragraphs:
+        doc.add_paragraph(para)
     doc.save(output_path)
