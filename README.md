@@ -79,3 +79,86 @@ python app.py
 - [ ] 자동 언어 감지
 - [ ] 전사 결과 요약 기능
 - [ ] 키워드 검색
+
+=================================================================================
+# my-transcriber
+
+A local personal web app that transcribes uploaded lecture audio/video files (mp3/mp4) into text, with download options in TXT, SRT, PDF, or DOCX format.
+
+## Features
+
+- Upload mp3 or mp4 files
+- Korean speech recognition powered by [faster-whisper](https://github.com/SYSTRAN/faster-whisper)
+- Real-time transcription progress (%)
+- Download results in multiple formats
+  - **TXT**: Plain text
+  - **SRT**: Subtitle file with timecodes
+  - **PDF**: For reading/archiving/submission (Korean font supported)
+  - **DOCX**: Editable Word document
+
+## Tech Stack
+
+| Area | Technology |
+|---|---|
+| Backend | Flask |
+| Frontend | HTML / CSS / Vanilla JS |
+| Speech Recognition | faster-whisper (CPU, int8) |
+| DOCX generation | python-docx |
+| PDF generation | ReportLab |
+
+## Folder Structure
+
+```
+my-transcriber/
+├─ app.py                 # Flask server entry point
+├─ requirements.txt        # List of required packages
+├─ .gitignore
+├─ uploads/                # Uploaded original files (git-ignored)
+├─ outputs/                # Generated result files (git-ignored)
+├─ templates/
+│  └─ index.html           # Upload form + progress bar + result view
+└─ services/
+   ├─ transcribe.py        # faster-whisper transcription logic
+   ├─ export_txt.py        # TXT generation
+   ├─ export_srt.py        # SRT generation
+   ├─ export_pdf.py        # PDF generation (ReportLab)
+   └─ export_docx.py       # DOCX generation (python-docx)
+```
+
+## Installation & Setup
+
+```powershell
+# 1. Create and activate a virtual environment
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the server
+python app.py
+```
+
+Then open `http://127.0.0.1:5000` in your browser.
+
+## How to Use
+
+1. Select and upload an mp3 or mp4 file
+2. Wait for the progress bar to reach 100% (transcription in progress)
+3. Review the transcribed text once complete
+4. Click the desired format (TXT / SRT / PDF / DOCX) to download
+
+## Known Limitations
+
+- Transcription runs synchronously on the local server and processes one job at a time
+- Progress (%) may not increase perfectly evenly due to varying processing speed across audio segments
+- Currently CPU-based; GPU (CUDA) support is planned separately
+- Only the most recent job is kept in memory (resets on server restart)
+
+## Roadmap
+
+- [ ] Job history storage
+- [ ] GPU (CUDA) integration
+- [ ] Automatic language detection
+- [ ] Transcript summarization
+- [ ] Keyword search
