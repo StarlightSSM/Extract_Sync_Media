@@ -3,3 +3,17 @@
 2026-09-07 10:58:13 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
 2026-09-07 10:58:15 | INFO | transcription | Whisper 모델 로딩 완료
 2026-09-07 10:58:15 | INFO | transcription | Whisper transcription 실행 | file=Week2__.mp4
+2026-09-07 11:06:04 | INFO | transcription | 전사 작업 시작 | file=Week2__.mp4
+2026-09-07 11:06:04 | INFO | transcription | 음성 전사 시작 | file=Week2__.mp4
+2026-09-07 11:06:04 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-07 11:06:07 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-07 11:06:07 | INFO | transcription | Whisper transcription 실행 | file=Week2__.mp4
+2026-09-07 11:07:01 | INFO | transcription | 미디어 정보 확인 | file=Week2__.mp4 | duration=8080.13초
+2026-09-07 13:05:50 | INFO | transcription | 음성 전사 완료 | file=Week2__.mp4 | segments=3967 | text_length=53502
+2026-09-07 13:05:50 | INFO | transcription | 전사 작업 완료 | file=Week2__.mp4 | segments=3967 | text_length=53502
+2026-09-07 14:21:30 | INFO | transcription | 전사 작업 시작 | file=Week3__.mp4
+2026-09-07 14:21:30 | INFO | transcription | 음성 전사 시작 | file=Week3__.mp4
+2026-09-07 14:21:30 | INFO | transcription | Whisper transcription 실행 | file=Week3__.mp4
+2026-09-07 14:22:46 | INFO | transcription | 미디어 정보 확인 | file=Week3__.mp4 | duration=11047.07초
+2026-09-07 15:28:10 | INFO | transcription | 음성 전사 완료 | file=Week3__.mp4 | segments=6131 | text_length=71124
+2026-09-07 15:28:10 | INFO | transcription | 전사 작업 완료 | file=Week3__.mp4 | segments=6131 | text_length=71124
