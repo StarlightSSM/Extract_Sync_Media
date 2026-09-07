@@ -1,0 +1,5 @@
+2026-09-07 10:58:13 | INFO | transcription | 전사 작업 시작 | file=Week2__.mp4
+2026-09-07 10:58:13 | INFO | transcription | 음성 전사 시작 | file=Week2__.mp4
+2026-09-07 10:58:13 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-07 10:58:15 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-07 10:58:15 | INFO | transcription | Whisper transcription 실행 | file=Week2__.mp4

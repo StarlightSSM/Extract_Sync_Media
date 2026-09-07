@@ -1,0 +1,45 @@
+2026-09-07 10:57:04 | INFO | server | ============================================================
+2026-09-07 10:57:04 | INFO | server | SERVER_START
+2026-09-07 10:57:04 | INFO | server | Flask 서버를 시작합니다.
+2026-09-07 10:57:04 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-09-07 10:57:04 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-09-07 10:57:04 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-09-07 10:57:04 | INFO | server | ============================================================
+2026-09-07 10:57:04 | WARNING | werkzeug |  * Debugger is active!
+2026-09-07 10:57:04 | INFO | werkzeug |  * Debugger PIN: 139-525-251
+2026-09-07 10:57:29 | INFO | server | ============================================================
+2026-09-07 10:57:29 | INFO | server | SERVER_SHUTDOWN
+2026-09-07 10:57:29 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
+2026-09-07 10:57:29 | INFO | server | ============================================================
+2026-09-07 10:57:33 | INFO | server | ============================================================
+2026-09-07 10:57:33 | INFO | server | SERVER_START
+2026-09-07 10:57:33 | INFO | server | Flask 서버를 시작합니다.
+2026-09-07 10:57:33 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-09-07 10:57:33 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-09-07 10:57:33 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-09-07 10:57:33 | INFO | server | ============================================================
+2026-09-07 10:57:33 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-07 10:57:33 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-09-07 10:58:01 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:01] "GET / HTTP/1.1" 200 -
+2026-09-07 10:58:13 | INFO | server | 파일 업로드 완료 | file=Week2__.mp4
+2026-09-07 10:58:13 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:13] "POST /upload HTTP/1.1" 200 -
+2026-09-07 10:58:14 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:14] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:15 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:15] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:16 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:16] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:17 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:17] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:18 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:18] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:19 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:19] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:20 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:20] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:21 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:21] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:22 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:22] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:23 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:23] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:24 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:24] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:25 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:25] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:26 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:26] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:27 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:27] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:28 | INFO | werkzeug | 127.0.0.1 - - [07/Sep/2026 10:58:28] "GET /progress HTTP/1.1" 200 -
+2026-09-07 10:58:29 | INFO | server | ============================================================
+2026-09-07 10:58:29 | INFO | server | SERVER_SHUTDOWN
+2026-09-07 10:58:29 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
+2026-09-07 10:58:29 | INFO | server | ============================================================
