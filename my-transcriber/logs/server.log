@@ -2981,3 +2981,23 @@
 2026-09-07 15:31:43 | INFO | server | SERVER_SHUTDOWN
 2026-09-07 15:31:43 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
 2026-09-07 15:31:43 | INFO | server | ============================================================
+2026-09-08 14:02:02 | INFO | server | ============================================================
+2026-09-08 14:02:02 | INFO | server | SERVER_START
+2026-09-08 14:02:02 | INFO | server | Flask 서버를 시작합니다.
+2026-09-08 14:02:02 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-09-08 14:02:02 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-09-08 14:02:02 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-09-08 14:02:02 | INFO | server | ============================================================
+2026-09-08 14:02:03 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 14:02:03 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-09-08 14:02:03 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 14:02:03] "GET / HTTP/1.1" 200 -
+2026-09-08 14:02:04 | WARNING | server | 404 Not Found | path=/favicon.ico
+2026-09-08 14:02:04 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 14:02:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-08 14:02:34 | INFO | server | 파일 업로드 완료 | file=Week4__.mp4
+2026-09-08 14:02:34 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 14:02:34] "POST /upload HTTP/1.1" 200 -
+2026-09-08 14:02:36 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 14:02:36] "GET /progress HTTP/1.1" 200 -
+2026-09-08 14:02:36 | INFO | server | ============================================================
+2026-09-08 14:02:36 | INFO | server | SERVER_SHUTDOWN
+2026-09-08 14:02:36 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
+2026-09-08 14:02:36 | INFO | server | ============================================================
