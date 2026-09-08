@@ -3001,3 +3001,170 @@
 2026-09-08 14:02:36 | INFO | server | SERVER_SHUTDOWN
 2026-09-08 14:02:36 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
 2026-09-08 14:02:36 | INFO | server | ============================================================
+2026-09-08 20:49:29 | INFO | server | ============================================================
+2026-09-08 20:49:29 | INFO | server | SERVER_START
+2026-09-08 20:49:29 | INFO | server | Flask 서버를 시작합니다.
+2026-09-08 20:49:29 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-09-08 20:49:29 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-09-08 20:49:29 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-09-08 20:49:29 | INFO | server | ============================================================
+2026-09-08 20:49:29 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 20:49:29 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-09-08 20:49:40 | INFO | server | ============================================================
+2026-09-08 20:49:40 | INFO | server | SERVER_SHUTDOWN
+2026-09-08 20:49:40 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
+2026-09-08 20:49:40 | INFO | server | ============================================================
+2026-09-08 20:49:49 | INFO | server | ============================================================
+2026-09-08 20:49:49 | INFO | server | SERVER_START
+2026-09-08 20:49:49 | INFO | server | Flask 서버를 시작합니다.
+2026-09-08 20:49:49 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-09-08 20:49:49 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-09-08 20:49:49 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-09-08 20:49:49 | INFO | server | ============================================================
+2026-09-08 20:49:49 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-09-08 20:49:49 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-09-08 20:50:04 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:04] "GET / HTTP/1.1" 200 -
+2026-09-08 20:50:05 | WARNING | server | 404 Not Found | path=/favicon.ico
+2026-09-08 20:50:05 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-09-08 20:50:20 | INFO | server | 파일 업로드 완료 | file=Week4__.mp4
+2026-09-08 20:50:20 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:20] "POST /upload HTTP/1.1" 200 -
+2026-09-08 20:50:21 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:21] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:22 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:22] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:23 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:23] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:24 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:24] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:25 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:25] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:26 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:26] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:27 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:27] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:28 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:28] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:29 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:29] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:30 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:30] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:31 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:31] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:32 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:32] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:33 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:33] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:34 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:34] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:35 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:35] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:36 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:36] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:37 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:37] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:38 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:38] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:39 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:39] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:40 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:40] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:41 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:41] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:42 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:42] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:43 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:43] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:45 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:45] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:46 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:46] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:47 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:47] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:48 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:48] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:49 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:49] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:50 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:50] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:51 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:51] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:52 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:52] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:53 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:53] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:54 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:54] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:55 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:55] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:56 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:56] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:57 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:57] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:58 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:58] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:50:59 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:50:59] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:00 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:00] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:01 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:01] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:02 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:02] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:03 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:03] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:04 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:04] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:05 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:05] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:06 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:06] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:07 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:07] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:08 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:08] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:09 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:09] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:10 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:10] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:11 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:11] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:12 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:12] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:13 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:13] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:14 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:14] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:15 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:15] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:16 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:16] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:17 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:17] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:18 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:18] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:19 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:19] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:20 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:20] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:21 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:21] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:22 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:22] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:23 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:23] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:24 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:24] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:25 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:25] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:26 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:26] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:27 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:27] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:28 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:28] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:29 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:29] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:30 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:30] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:31 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:31] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:32 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:32] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:51:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:51:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:52:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:52:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:53:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:53:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:54:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:54:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:55:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:55:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:56:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:56:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:57:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:57:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:58:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:58:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 20:59:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 20:59:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:00:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:00:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:01:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:01:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:02:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:02:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:03:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:03:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:04:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:04:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:05:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:05:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:06:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:06:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:07:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:07:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:08:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:08:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:09:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:09:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:10:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:10:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:11:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:11:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:12:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:12:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:13:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:13:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:14:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:14:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:15:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:15:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:16:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:16:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:17:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:17:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:18:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:18:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:19:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:19:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:20:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:20:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:21:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:21:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:22:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:22:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:23:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:23:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:24:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:24:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:25:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:25:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:26:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:26:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:27:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:27:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:28:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:28:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:29:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:29:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:30:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:30:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:31:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:31:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:32:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:32:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:33:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:33:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:34:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:34:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:35:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:35:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:36:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:36:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:37:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:37:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:38:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:38:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:39:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:39:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:40:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:40:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:41:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:41:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:42:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:42:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:43:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:43:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:44:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:44:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:45:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:45:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:46:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:46:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:47:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:47:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:48:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:48:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:49:44 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:49:44] "GET /progress HTTP/1.1" 200 -
+2026-09-08 21:49:45 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 21:49:45] "GET / HTTP/1.1" 200 -
+2026-09-08 23:14:09 | INFO | server | 파일 다운로드 완료 | format=srt
+2026-09-08 23:14:09 | INFO | werkzeug | 127.0.0.1 - - [08/Sep/2026 23:14:09] "GET /download/srt HTTP/1.1" 200 -
+2026-09-08 23:14:42 | INFO | server | ============================================================
+2026-09-08 23:14:42 | INFO | server | SERVER_SHUTDOWN
+2026-09-08 23:14:42 | INFO | server | Flask 서버가 정상적으로 종료되었습니다.
+2026-09-08 23:14:42 | INFO | server | ============================================================
