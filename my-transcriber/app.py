@@ -28,8 +28,8 @@ LOG_FOLDER = os.path.join(BASE_DIR, "logs")
 
 ALLOWED_EXTENSIONS = {"mp3", "mp4"}
 
-app.config["MAX_CONTENT_LENGTH"] = 500 * 1024 * 1024
-
+# 최대 업로드 크기: 2GB
+app.config["MAX_CONTENT_LENGTH"] = 2 * 1024 * 1024 * 1024
 
 # =========================================================
 # 폴더 자동 생성
@@ -569,10 +569,9 @@ def request_entity_too_large(error):
 
     return (
         "파일 크기가 너무 큽니다. "
-        "최대 500MB까지 업로드할 수 있습니다.",
+        "최대 2GB까지 업로드할 수 있습니다.",
         413
     )
-
 
 # =========================================================
 # 500 처리
