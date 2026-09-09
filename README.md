@@ -30,6 +30,13 @@ The application uses `faster-whisper` for speech recognition and provides real-t
 * 서버 시작 / 종료 상태 기록
 * HTTP 요청 로그 기록
 
+### 2026-09-08
+
+* **[Issue] 학교 내부 전산망 환경에서 프로그램 작동 불가**
+  * 보안이 적용된 학교 내부 전산망에서 강의 전사 프로그램이 정상적으로 작동하지 않는 문제 발생
+  * 학교 내부 전산망의 보안 정책 및 네트워크 환경으로 인해 서버 연결이 원활하지 않은 것으로 확인
+  * 해당 환경에서 프로그램 실행 중 서버가 종료되는 이슈 발생
+  
 ## 변경 이력
 
 ### 2026-09-09
@@ -37,6 +44,13 @@ The application uses `faster-whisper` for speech recognition and provides real-t
 * 영상 및 미디어 파일 업로드 용량 제한을 **2GB**로 확대
 * 대용량 MP3/MP4 파일 업로드 지원 강화
 
+### 2026-09-08
+
+* **[Issue] 학교 내부 전산망 환경에서 프로그램 작동 불가**
+  * 보안이 적용된 학교 내부 전산망에서 강의 전사 프로그램이 정상적으로 작동하지 않는 문제 발생
+  * 학교 내부 전산망의 보안 정책 및 네트워크 환경으로 인해 서버 연결이 원활하지 않은 것으로 확인
+  * 해당 환경에서 프로그램 실행 중 서버가 종료되는 이슈 발생
+  
 ---
 
 ## 기술 스택
@@ -253,6 +267,13 @@ http://127.0.0.1:5000
 * Server startup and shutdown logging
 * HTTP request logging
 
+### 2026-09-08
+
+* **[Issue] Application failure on the secured university network**
+  * The lecture transcription application did not work properly when connected to the university's secured internal network.
+  * The issue was identified as being related to the network security policies and network environment, which interfered with the server connection.
+  * The application server was also terminated while running under this network environment.
+  
 ## Changelog
 
 ### 2026-09-09
