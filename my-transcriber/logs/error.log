@@ -136,3 +136,45 @@ Traceback (most recent call last):
   File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
     raise mapped_exc(message) from exc
 httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스템의 소프트웨어의 의해 중단되었습니다
+2026-09-09 08:23:37 | ERROR | error | 파일 업로드 처리 중 오류 발생
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 340, in upload
+    if "media" not in request.files:
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\utils.py", line 100, in __get__
+    value = self.fget(obj)  # type: ignore
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 497, in files
+    self._load_form_data()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\flask\wrappers.py", line 198, in _load_form_data
+    super()._load_form_data()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 272, in _load_form_data
+    self._get_stream_for_parsing(),
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 299, in _get_stream_for_parsing
+    return self.stream
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\utils.py", line 100, in __get__
+    value = self.fget(obj)  # type: ignore
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 351, in stream
+    return get_input_stream(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wsgi.py", line 187, in get_input_stream
+    raise RequestEntityTooLarge()
+werkzeug.exceptions.RequestEntityTooLarge: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2026-09-09 08:37:42 | ERROR | error | 파일 업로드 처리 중 오류 발생
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 340, in upload
+    if "media" not in request.files:
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\utils.py", line 100, in __get__
+    value = self.fget(obj)  # type: ignore
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 497, in files
+    self._load_form_data()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\flask\wrappers.py", line 198, in _load_form_data
+    super()._load_form_data()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 272, in _load_form_data
+    self._get_stream_for_parsing(),
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 299, in _get_stream_for_parsing
+    return self.stream
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\utils.py", line 100, in __get__
+    value = self.fget(obj)  # type: ignore
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wrappers\request.py", line 351, in stream
+    return get_input_stream(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wsgi.py", line 187, in get_input_stream
+    raise RequestEntityTooLarge()
+werkzeug.exceptions.RequestEntityTooLarge: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
