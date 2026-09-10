@@ -98,3 +98,11 @@ httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스
 2026-09-08 20:51:55 | INFO | transcription | 미디어 정보 확인 | file=Week4__.mp4 | duration=10997.22초
 2026-09-08 21:48:52 | INFO | transcription | 음성 전사 완료 | file=Week4__.mp4 | segments=2381 | text_length=74345
 2026-09-08 21:48:52 | INFO | transcription | 전사 작업 완료 | file=Week4__.mp4 | segments=2381 | text_length=74345
+2026-09-09 17:42:19 | INFO | transcription | 전사 작업 시작 | file=Week5__.mp4
+2026-09-09 17:42:19 | INFO | transcription | 음성 전사 시작 | file=Week5__.mp4
+2026-09-09 17:42:19 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-09 17:42:22 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-09 17:42:22 | INFO | transcription | Whisper transcription 실행 | file=Week5__.mp4
+2026-09-09 17:44:00 | INFO | transcription | 미디어 정보 확인 | file=Week5__.mp4 | duration=11385.44초
+2026-09-09 18:37:44 | INFO | transcription | 음성 전사 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
+2026-09-09 18:37:44 | INFO | transcription | 전사 작업 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
