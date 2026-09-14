@@ -590,15 +590,14 @@ def internal_server_error(error):
 
 
 # =========================================================
-# 정상 종료 로그
+# 프로세스 종료 로그
 # =========================================================
 
 @atexit.register
 def shutdown_server():
-
     server_logger.info("=" * 60)
     server_logger.info("SERVER_SHUTDOWN")
-    server_logger.info("Flask 서버가 정상적으로 종료되었습니다.")
+    server_logger.info("Python 프로세스가 종료되었습니다.")
     server_logger.info("=" * 60)
 
 
@@ -630,6 +629,6 @@ if __name__ == "__main__":
     # 자동 reloader를 끄기 위해 use_reloader=False
     # 그래야 코드 변경 시 불필요한 서버 재시작 로그가 발생하지 않습니다.
     app.run(
-        debug=True,
+        debug=False,
         use_reloader=False
     )
