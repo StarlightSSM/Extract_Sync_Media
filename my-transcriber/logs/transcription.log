@@ -106,3 +106,23 @@ httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스
 2026-09-09 17:44:00 | INFO | transcription | 미디어 정보 확인 | file=Week5__.mp4 | duration=11385.44초
 2026-09-09 18:37:44 | INFO | transcription | 음성 전사 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
 2026-09-09 18:37:44 | INFO | transcription | 전사 작업 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
+2026-09-14 10:01:09 | INFO | transcription | 전사 작업 시작 | file=Week5__.mp4
+2026-09-14 10:01:09 | INFO | transcription | 음성 전사 시작 | file=Week5__.mp4
+2026-09-14 10:01:09 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-14 10:01:12 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-14 10:01:12 | INFO | transcription | Whisper transcription 실행 | file=Week5__.mp4
+2026-09-14 10:02:49 | INFO | transcription | 미디어 정보 확인 | file=Week5__.mp4 | duration=11385.44초
+2026-09-14 11:01:29 | INFO | transcription | 음성 전사 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
+2026-09-14 11:01:29 | INFO | transcription | 전사 작업 완료 | file=Week5__.mp4 | segments=5489 | text_length=72867
+2026-09-14 11:10:42 | INFO | transcription | 전사 작업 시작 | file=Week6__.mp4
+2026-09-14 11:10:42 | INFO | transcription | 음성 전사 시작 | file=Week6__.mp4
+2026-09-14 11:10:42 | INFO | transcription | Whisper transcription 실행 | file=Week6__.mp4
+2026-09-14 11:12:14 | INFO | transcription | 미디어 정보 확인 | file=Week6__.mp4 | duration=10519.90초
+2026-09-14 12:06:54 | INFO | transcription | 음성 전사 완료 | file=Week6__.mp4 | segments=5315 | text_length=68078
+2026-09-14 12:06:54 | INFO | transcription | 전사 작업 완료 | file=Week6__.mp4 | segments=5315 | text_length=68078
+2026-09-18 12:59:35 | INFO | transcription | 전사 작업 시작 | file=Week7__.mp4
+2026-09-18 12:59:35 | INFO | transcription | 음성 전사 시작 | file=Week7__.mp4
+2026-09-18 12:59:35 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-18 12:59:41 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-18 12:59:41 | INFO | transcription | Whisper transcription 실행 | file=Week7__.mp4
+2026-09-18 13:03:07 | INFO | transcription | 미디어 정보 확인 | file=Week7__.mp4 | duration=11537.79초
