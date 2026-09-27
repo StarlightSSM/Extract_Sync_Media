@@ -629,6 +629,8 @@ if __name__ == "__main__":
     # 자동 reloader를 끄기 위해 use_reloader=False
     # 그래야 코드 변경 시 불필요한 서버 재시작 로그가 발생하지 않습니다.
     app.run(
+        host="127.0.0.1",
+        port=5001,
         debug=False,
         use_reloader=False
     )
