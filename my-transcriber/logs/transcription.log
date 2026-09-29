@@ -222,3 +222,11 @@ httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스
 2026-09-29 21:44:32 | INFO | transcription | 음성 전사 시작 | file=Week2-1_.mp4
 2026-09-29 21:44:32 | INFO | transcription | Whisper transcription 실행 | file=Week2-1_.mp4
 2026-09-29 21:44:57 | INFO | transcription | 미디어 정보 확인 | file=Week2-1_.mp4 | duration=5045.22초
+2026-09-29 22:09:20 | INFO | transcription | 음성 전사 완료 | file=Week2-1_.mp4 | segments=2338 | text_length=34180
+2026-09-29 22:09:20 | INFO | transcription | 전사 작업 완료 | file=Week2-1_.mp4 | segments=2338 | text_length=34180
+2026-09-29 22:11:03 | INFO | transcription | 전사 작업 시작 | file=Week2-2_.mp4
+2026-09-29 22:11:03 | INFO | transcription | 음성 전사 시작 | file=Week2-2_.mp4
+2026-09-29 22:11:03 | INFO | transcription | Whisper transcription 실행 | file=Week2-2_.mp4
+2026-09-29 22:11:25 | INFO | transcription | 미디어 정보 확인 | file=Week2-2_.mp4 | duration=4852.26초
+2026-09-29 22:36:52 | INFO | transcription | 음성 전사 완료 | file=Week2-2_.mp4 | segments=3526 | text_length=31712
+2026-09-29 22:36:52 | INFO | transcription | 전사 작업 완료 | file=Week2-2_.mp4 | segments=3526 | text_length=31712
