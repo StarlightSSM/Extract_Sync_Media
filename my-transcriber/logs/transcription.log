@@ -200,3 +200,25 @@ httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스
 2026-09-27 22:07:25 | INFO | transcription | 미디어 정보 확인 | file=Week5_Part2.mp4 | duration=2839.58초
 2026-09-27 22:20:05 | INFO | transcription | 음성 전사 완료 | file=Week5_Part2.mp4 | segments=382 | text_length=19673
 2026-09-27 22:20:05 | INFO | transcription | 전사 작업 완료 | file=Week5_Part2.mp4 | segments=382 | text_length=19673
+2026-09-29 21:18:50 | INFO | transcription | 전사 작업 시작 | file=Week1-2_.mp4
+2026-09-29 21:18:50 | INFO | transcription | 음성 전사 시작 | file=Week1-2_.mp4
+2026-09-29 21:18:50 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-29 21:18:52 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-29 21:18:52 | INFO | transcription | Whisper transcription 실행 | file=Week1-2_.mp4
+2026-09-29 21:19:09 | INFO | transcription | 미디어 정보 확인 | file=Week1-2_.mp4 | duration=3766.46초
+2026-09-29 21:19:58 | INFO | transcription | 전사 작업 시작 | file=Week2-1_.mp4
+2026-09-29 21:19:58 | INFO | transcription | 음성 전사 시작 | file=Week2-1_.mp4
+2026-09-29 21:19:58 | INFO | transcription | Whisper transcription 실행 | file=Week2-1_.mp4
+2026-09-29 21:20:31 | INFO | transcription | 미디어 정보 확인 | file=Week2-1_.mp4 | duration=5045.22초
+2026-09-29 21:21:33 | INFO | transcription | 전사 작업 시작 | file=Week1-2_.mp4
+2026-09-29 21:21:33 | INFO | transcription | 음성 전사 시작 | file=Week1-2_.mp4
+2026-09-29 21:21:33 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-09-29 21:21:35 | INFO | transcription | Whisper 모델 로딩 완료
+2026-09-29 21:21:35 | INFO | transcription | Whisper transcription 실행 | file=Week1-2_.mp4
+2026-09-29 21:21:51 | INFO | transcription | 미디어 정보 확인 | file=Week1-2_.mp4 | duration=3766.46초
+2026-09-29 21:39:16 | INFO | transcription | 음성 전사 완료 | file=Week1-2_.mp4 | segments=1596 | text_length=23984
+2026-09-29 21:39:16 | INFO | transcription | 전사 작업 완료 | file=Week1-2_.mp4 | segments=1596 | text_length=23984
+2026-09-29 21:44:32 | INFO | transcription | 전사 작업 시작 | file=Week2-1_.mp4
+2026-09-29 21:44:32 | INFO | transcription | 음성 전사 시작 | file=Week2-1_.mp4
+2026-09-29 21:44:32 | INFO | transcription | Whisper transcription 실행 | file=Week2-1_.mp4
+2026-09-29 21:44:57 | INFO | transcription | 미디어 정보 확인 | file=Week2-1_.mp4 | duration=5045.22초
