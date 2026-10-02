@@ -25593,3 +25593,17 @@
 2026-10-01 23:41:22 | INFO | server | SERVER_SHUTDOWN
 2026-10-01 23:41:22 | INFO | server | Python 프로세스가 종료되었습니다.
 2026-10-01 23:41:22 | INFO | server | ============================================================
+2026-10-02 20:54:49 | INFO | server | ============================================================
+2026-10-02 20:54:49 | INFO | server | SERVER_START
+2026-10-02 20:54:49 | INFO | server | Flask 서버를 시작합니다.
+2026-10-02 20:54:49 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-10-02 20:54:49 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-10-02 20:54:49 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-10-02 20:54:49 | INFO | server | ============================================================
+2026-10-02 20:54:49 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-10-02 20:54:49 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-10-02 20:56:30 | INFO | server | ============================================================
+2026-10-02 20:56:30 | INFO | server | SERVER_SHUTDOWN
+2026-10-02 20:56:30 | INFO | server | Python 프로세스가 종료되었습니다.
+2026-10-02 20:56:30 | INFO | server | ============================================================
