@@ -25607,3 +25607,43 @@
 2026-10-02 20:56:30 | INFO | server | SERVER_SHUTDOWN
 2026-10-02 20:56:30 | INFO | server | Python 프로세스가 종료되었습니다.
 2026-10-02 20:56:30 | INFO | server | ============================================================
+2026-10-05 12:43:02 | INFO | server | ============================================================
+2026-10-05 12:43:02 | INFO | server | SERVER_START
+2026-10-05 12:43:02 | INFO | server | Flask 서버를 시작합니다.
+2026-10-05 12:43:02 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-10-05 12:43:02 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-10-05 12:43:02 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-10-05 12:43:02 | INFO | server | ============================================================
+2026-10-05 12:43:02 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-10-05 12:43:02 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-10-05 12:43:09 | INFO | server | ============================================================
+2026-10-05 12:43:09 | INFO | server | SERVER_SHUTDOWN
+2026-10-05 12:43:09 | INFO | server | Python 프로세스가 종료되었습니다.
+2026-10-05 12:43:09 | INFO | server | ============================================================
+2026-10-05 12:43:30 | INFO | server | ============================================================
+2026-10-05 12:43:30 | INFO | server | SERVER_START
+2026-10-05 12:43:30 | INFO | server | Flask 서버를 시작합니다.
+2026-10-05 12:43:30 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-10-05 12:43:30 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-10-05 12:43:30 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-10-05 12:43:30 | INFO | server | ============================================================
+2026-10-05 12:43:30 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-10-05 12:43:30 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-10-05 12:43:31 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:31] "GET / HTTP/1.1" 200 -
+2026-10-05 12:43:32 | WARNING | server | 404 Not Found | path=/favicon.ico
+2026-10-05 12:43:32 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-05 12:43:55 | INFO | server | 파일 업로드 완료 | file=Week10__.mp4
+2026-10-05 12:43:55 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:55] "POST /upload HTTP/1.1" 200 -
+2026-10-05 12:43:56 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:56] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:43:57 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:57] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:43:58 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:58] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:43:59 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:43:59] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:00 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:00] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:01 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:01] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:02 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:02] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:03 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:03] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:04 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:04] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:05 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:05] "GET /progress HTTP/1.1" 200 -
+2026-10-05 12:44:06 | INFO | werkzeug | 127.0.0.1 - - [05/Oct/2026 12:44:06] "GET /progress HTTP/1.1" 200 -
