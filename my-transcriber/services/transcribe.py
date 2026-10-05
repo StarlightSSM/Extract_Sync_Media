@@ -1,4 +1,3 @@
-```python
 import os
 import gc
 import logging
@@ -464,4 +463,3 @@ def transcribe_media(
         )
 
         raise
-```
