@@ -199,3 +199,35 @@ Traceback (most recent call last):
   File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\werkzeug\wsgi.py", line 187, in get_input_stream
     raise RequestEntityTooLarge()
 werkzeug.exceptions.RequestEntityTooLarge: 413 Request Entity Too Large: The data value transmitted exceeds the capacity limit.
+2026-10-05 12:45:29 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 117, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64
+2026-10-05 12:45:29 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 117, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64

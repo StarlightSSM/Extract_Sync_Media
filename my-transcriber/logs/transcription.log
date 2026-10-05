@@ -264,3 +264,40 @@ httpx.ReadError: [WinError 10053] 현재 연결은 사용자의 호스트 시스
 2026-10-01 23:06:36 | INFO | transcription | 미디어 정보 확인 | file=Week4-1_.mp4 | duration=3419.84초
 2026-10-01 23:21:14 | INFO | transcription | 음성 전사 완료 | file=Week4-1_.mp4 | segments=1573 | text_length=22323
 2026-10-01 23:21:14 | INFO | transcription | 전사 작업 완료 | file=Week4-1_.mp4 | segments=1573 | text_length=22323
+2026-10-05 12:43:55 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-05 12:43:55 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4
+2026-10-05 12:43:55 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu
+2026-10-05 12:44:00 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-05 12:44:00 | INFO | transcription | Whisper transcription 실행 | file=Week10__.mp4
+2026-10-05 12:45:29 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 117, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64
+2026-10-05 12:45:29 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 117, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64
