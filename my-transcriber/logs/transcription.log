@@ -301,3 +301,42 @@ Traceback (most recent call last):
   File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
     return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
 numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64
+2026-10-05 13:00:06 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-05 13:00:06 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=600초
+2026-10-05 13:00:06 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
+2026-10-05 13:00:09 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-05 13:00:09 | INFO | transcription | 미디어 정보 확인 | file=Week10__.mp4 | duration=9078.52초 | duration=151.31분
+2026-10-05 13:00:09 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=1 | start=0.00 | end=600.00 | duration=600.00
+2026-10-05 13:05:11 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=1 | segments=68
+2026-10-05 13:05:11 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=2 | start=600.00 | end=1200.00 | duration=600.00
+2026-10-05 13:09:29 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=2 | segments=224
+2026-10-05 13:09:29 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=3 | start=1200.00 | end=1800.00 | duration=600.00
+2026-10-05 13:13:42 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=3 | segments=219
+2026-10-05 13:13:42 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=4 | start=1800.00 | end=2400.00 | duration=600.00
+2026-10-05 13:17:38 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=4 | segments=78
+2026-10-05 13:17:38 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=5 | start=2400.00 | end=3000.00 | duration=600.00
+2026-10-05 13:22:03 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=5 | segments=99
+2026-10-05 13:22:03 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=6 | start=3000.00 | end=3600.00 | duration=600.00
+2026-10-05 13:25:51 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=6 | segments=255
+2026-10-05 13:25:51 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=7 | start=3600.00 | end=4200.00 | duration=600.00
+2026-10-05 13:30:21 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=7 | segments=149
+2026-10-05 13:30:21 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=8 | start=4200.00 | end=4800.00 | duration=600.00
+2026-10-05 13:33:53 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=8 | segments=230
+2026-10-05 13:33:53 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=9 | start=4800.00 | end=5400.00 | duration=600.00
+2026-10-05 13:37:41 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=9 | segments=178
+2026-10-05 13:37:41 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=10 | start=5400.00 | end=6000.00 | duration=600.00
+2026-10-05 13:41:57 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=10 | segments=128
+2026-10-05 13:41:57 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=11 | start=6000.00 | end=6600.00 | duration=600.00
+2026-10-05 13:46:14 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=11 | segments=237
+2026-10-05 13:46:14 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=12 | start=6600.00 | end=7200.00 | duration=600.00
+2026-10-05 13:49:57 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=12 | segments=187
+2026-10-05 13:49:57 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=13 | start=7200.00 | end=7800.00 | duration=600.00
+2026-10-05 13:53:47 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=13 | segments=215
+2026-10-05 13:53:47 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=14 | start=7800.00 | end=8400.00 | duration=600.00
+2026-10-05 13:57:43 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=14 | segments=235
+2026-10-05 13:57:43 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=15 | start=8400.00 | end=9000.00 | duration=600.00
+2026-10-05 14:01:28 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=15 | segments=86
+2026-10-05 14:01:28 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=16 | start=9000.00 | end=9078.52 | duration=78.52
+2026-10-05 14:02:07 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=16 | segments=23
+2026-10-05 14:02:07 | INFO | transcription | 음성 전사 완료 | file=Week10__.mp4 | chunks=16 | segments=2611 | text_length=60842
+2026-10-05 14:02:07 | INFO | transcription | 전사 작업 완료 | file=Week10__.mp4 | segments=2611 | text_length=60842
