@@ -340,3 +340,143 @@ numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an ar
 2026-10-05 14:02:07 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=16 | segments=23
 2026-10-05 14:02:07 | INFO | transcription | 음성 전사 완료 | file=Week10__.mp4 | chunks=16 | segments=2611 | text_length=60842
 2026-10-05 14:02:07 | INFO | transcription | 전사 작업 완료 | file=Week10__.mp4 | segments=2611 | text_length=60842
+2026-10-09 15:56:08 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 15:56:08 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=600초
+2026-10-09 15:56:08 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
+2026-10-09 15:56:11 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-09 15:56:11 | INFO | transcription | 미디어 정보 확인 | file=Week10__.mp4 | duration=9078.52초 | duration=151.31분
+2026-10-09 15:56:11 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=1 | start=0.00 | end=600.00 | duration=600.00
+2026-10-09 16:00:10 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=1 | segments=68
+2026-10-09 16:00:10 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=2 | start=600.00 | end=1200.00 | duration=600.00
+2026-10-09 16:00:23 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 305, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.72 GiB for an array with shape (1, 907848, 201) and data type complex128
+2026-10-09 16:00:23 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 305, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.72 GiB for an array with shape (1, 907848, 201) and data type complex128
+2026-10-09 16:08:45 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:08:45 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:08:46 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:08:46 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:10:41 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:10:41 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:10:41 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:10:41 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:04 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:12:04 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:12:04 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:04 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:54 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:12:54 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:12:54 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:54 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:15:25 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:15:25 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:15:25 | ERROR | transcription | 음성 전사 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:15:25 | ERROR | transcription | 전사 작업 실패 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:17:15 | INFO | transcription | 전사 작업 시작 | file=Week10__.mp4
+2026-10-09 16:17:15 | INFO | transcription | 음성 전사 시작 | file=Week10__.mp4 | chunk=120초
+2026-10-09 16:17:15 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
+2026-10-09 16:17:20 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-09 16:17:20 | INFO | transcription | 미디어 정보 확인 | file=Week10__.mp4 | duration=9078.52초 | duration=151.31분
+2026-10-09 16:17:20 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=1 | start=0.00 | end=120.00 | duration=120.00
+2026-10-09 16:17:21 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-09 16:18:02 | INFO | transcription | Whisper chunk 전사 완료 | file=Week10__.mp4 | chunk=1 | segments=24
+2026-10-09 16:18:02 | INFO | transcription | Whisper chunk 전사 시작 | file=Week10__.mp4 | chunk=2 | start=120.00 | end=240.00 | duration=120.00
+2026-10-09 16:18:03 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB

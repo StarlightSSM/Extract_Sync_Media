@@ -231,3 +231,130 @@ Traceback (most recent call last):
   File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
     return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
 numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.50 GiB for an array with shape (1, 840069, 400) and data type float64
+2026-10-09 16:00:23 | ERROR | error | Whisper chunk 전사 실패 | file=Week10__.mp4 | chunk=2 | start=600.00 | end=1200.00
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 305, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.72 GiB for an array with shape (1, 907848, 201) and data type complex128
+2026-10-09 16:00:23 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 305, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.72 GiB for an array with shape (1, 907848, 201) and data type complex128
+2026-10-09 16:00:23 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 305, in transcribe_media
+    segments, info = model.transcribe(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\transcribe.py", line 916, in transcribe
+    features = self.feature_extractor(audio, chunk_length=chunk_length)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 215, in __call__
+    stft = self.stft(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\faster_whisper\feature_extractor.py", line 189, in stft
+    output = np.fft.rfft(input_array, n=n_fft, axis=-1, norm=norm)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 414, in rfft
+    output = _raw_fft(a, n, axis, True, True, norm, out=out)
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\.venv\lib\site-packages\numpy\fft\_pocketfft.py", line 94, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 2.72 GiB for an array with shape (1, 907848, 201) and data type complex128
+2026-10-09 16:08:46 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:08:46 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:10:41 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:10:41 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:04 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:04 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:54 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:12:54 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:15:25 | ERROR | error | 음성 전사 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
+2026-10-09 16:15:25 | ERROR | error | 전사 작업 중 오류 발생 | file=Week10__.mp4
+Traceback (most recent call last):
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\app.py", line 212, in run_transcription
+    text, segments = transcribe_media(
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 210, in transcribe_media
+    _ffmpeg_path()
+  File "C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\services\transcribe.py", line 79, in _ffmpeg_path
+    raise RuntimeError(
+RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 추가한 뒤 'ffmpeg -version' 명령이 실행되는지 확인하세요.
