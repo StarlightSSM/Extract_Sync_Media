@@ -1847,3 +1847,6 @@ RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 
 2026-10-14 02:18:54 | INFO | transcription | Whisper chunk 전사 완료 | file=Week12__.mp4 | chunk=55 | segments=29
 2026-10-14 02:18:54 | INFO | transcription | Whisper chunk 전사 시작 | file=Week12__.mp4 | chunk=56 | start=6600.00 | end=6720.00 | duration=120.00
 2026-10-14 02:18:54 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-14 23:32:52 | INFO | transcription | 전사 작업 시작 | file=Week14__.mp4
+2026-10-14 23:32:52 | INFO | transcription | 음성 전사 시작 | file=Week14__.mp4 | chunk=120초
+2026-10-14 23:32:53 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
