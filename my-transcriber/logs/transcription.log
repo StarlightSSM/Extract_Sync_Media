@@ -2203,3 +2203,67 @@ RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 
 2026-10-15 13:14:47 | INFO | transcription | Whisper chunk 전사 완료 | file=Week4-2_.mp4 | chunk=48 | segments=23
 2026-10-15 13:14:47 | INFO | transcription | 음성 전사 완료 | file=Week4-2_.mp4 | chunks=48 | segments=1705 | text_length=39135
 2026-10-15 13:14:47 | INFO | transcription | 전사 작업 완료 | file=Week4-2_.mp4 | segments=1705 | text_length=39135
+2026-10-16 11:25:00 | INFO | transcription | 전사 작업 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4
+2026-10-16 11:25:00 | INFO | transcription | 음성 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=120초
+2026-10-16 11:25:00 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
+2026-10-16 11:25:03 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-16 11:25:03 | INFO | transcription | 미디어 정보 확인 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | duration=2225.12초 | duration=37.09분
+2026-10-16 11:25:03 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=1 | start=0.00 | end=120.00 | duration=120.00
+2026-10-16 11:25:04 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:25:59 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=1 | segments=18
+2026-10-16 11:25:59 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=2 | start=120.00 | end=240.00 | duration=120.00
+2026-10-16 11:26:00 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:26:51 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=2 | segments=15
+2026-10-16 11:26:51 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=3 | start=240.00 | end=360.00 | duration=120.00
+2026-10-16 11:26:51 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:27:58 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=3 | segments=27
+2026-10-16 11:27:58 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=4 | start=360.00 | end=480.00 | duration=120.00
+2026-10-16 11:27:58 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:29:09 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=4 | segments=36
+2026-10-16 11:29:09 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=5 | start=480.00 | end=600.00 | duration=120.00
+2026-10-16 11:29:09 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:30:17 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=5 | segments=29
+2026-10-16 11:30:17 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=6 | start=600.00 | end=720.00 | duration=120.00
+2026-10-16 11:30:17 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:31:26 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=6 | segments=19
+2026-10-16 11:31:26 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=7 | start=720.00 | end=840.00 | duration=120.00
+2026-10-16 11:31:26 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:32:37 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=7 | segments=28
+2026-10-16 11:32:37 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=8 | start=840.00 | end=960.00 | duration=120.00
+2026-10-16 11:32:38 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:33:43 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=8 | segments=19
+2026-10-16 11:33:43 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=9 | start=960.00 | end=1080.00 | duration=120.00
+2026-10-16 11:33:43 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:34:56 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=9 | segments=23
+2026-10-16 11:34:56 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=10 | start=1080.00 | end=1200.00 | duration=120.00
+2026-10-16 11:34:56 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:36:05 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=10 | segments=21
+2026-10-16 11:36:05 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=11 | start=1200.00 | end=1320.00 | duration=120.00
+2026-10-16 11:36:05 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:38:24 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=11 | segments=17
+2026-10-16 11:38:24 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=12 | start=1320.00 | end=1440.00 | duration=120.00
+2026-10-16 11:38:25 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:39:23 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=12 | segments=17
+2026-10-16 11:39:23 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=13 | start=1440.00 | end=1560.00 | duration=120.00
+2026-10-16 11:39:24 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:40:18 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=13 | segments=14
+2026-10-16 11:40:18 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=14 | start=1560.00 | end=1680.00 | duration=120.00
+2026-10-16 11:40:19 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:41:20 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=14 | segments=21
+2026-10-16 11:41:21 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=15 | start=1680.00 | end=1800.00 | duration=120.00
+2026-10-16 11:41:21 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:42:28 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=15 | segments=29
+2026-10-16 11:42:28 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=16 | start=1800.00 | end=1920.00 | duration=120.00
+2026-10-16 11:42:29 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:43:36 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=16 | segments=20
+2026-10-16 11:43:36 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=17 | start=1920.00 | end=2040.00 | duration=120.00
+2026-10-16 11:43:36 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:44:38 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=17 | segments=36
+2026-10-16 11:44:38 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=18 | start=2040.00 | end=2160.00 | duration=120.00
+2026-10-16 11:44:39 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-16 11:45:46 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=18 | segments=21
+2026-10-16 11:45:46 | INFO | transcription | Whisper chunk 전사 시작 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=19 | start=2160.00 | end=2225.12 | duration=65.12
+2026-10-16 11:45:46 | INFO | transcription | 오디오 배열 점검 | shape=(1041949,) | dtype=float32 | samples=1041949 | duration=65.12초 | memory=3.97MB
+2026-10-16 11:46:23 | INFO | transcription | Whisper chunk 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunk=19 | segments=12
+2026-10-16 11:46:23 | INFO | transcription | 음성 전사 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | chunks=19 | segments=422 | text_length=13973
+2026-10-16 11:46:23 | INFO | transcription | 전사 작업 완료 | file=YTDown.com_YouTube_Media_49HZ2kggWNo_2026-OIBC--------_001_1080p.mp4 | segments=422 | text_length=13973
