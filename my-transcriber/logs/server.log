@@ -43848,3 +43848,30 @@
 2026-10-23 10:58:21 | INFO | server | SERVER_SHUTDOWN
 2026-10-23 10:58:21 | INFO | server | Python 프로세스가 종료되었습니다.
 2026-10-23 10:58:21 | INFO | server | ============================================================
+2026-10-25 18:24:46 | INFO | server | ============================================================
+2026-10-25 18:24:46 | INFO | server | SERVER_START
+2026-10-25 18:24:46 | INFO | server | Flask 서버를 시작합니다.
+2026-10-25 18:24:46 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-10-25 18:24:46 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-10-25 18:24:46 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-10-25 18:24:46 | INFO | server | ============================================================
+2026-10-25 18:24:46 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-10-25 18:24:46 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-10-25 18:24:55 | INFO | werkzeug | 127.0.0.1 - - [25/Oct/2026 18:24:55] "GET / HTTP/1.1" 200 -
+2026-10-25 18:24:56 | WARNING | server | 404 Not Found | path=/favicon.ico
+2026-10-25 18:24:56 | INFO | werkzeug | 127.0.0.1 - - [25/Oct/2026 18:24:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-25 18:24:57 | INFO | server | ============================================================
+2026-10-25 18:24:57 | INFO | server | SERVER_SHUTDOWN
+2026-10-25 18:24:57 | INFO | server | Python 프로세스가 종료되었습니다.
+2026-10-25 18:24:57 | INFO | server | ============================================================
+2026-10-25 18:25:23 | INFO | server | ============================================================
+2026-10-25 18:25:23 | INFO | server | SERVER_START
+2026-10-25 18:25:23 | INFO | server | Flask 서버를 시작합니다.
+2026-10-25 18:25:23 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-10-25 18:25:23 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-10-25 18:25:23 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-10-25 18:25:23 | INFO | server | ============================================================
+2026-10-25 18:25:23 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-10-25 18:25:23 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
