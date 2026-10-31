@@ -3476,3 +3476,52 @@ RuntimeError: FFmpeg를 찾을 수 없습니다. FFmpeg를 설치하고 PATH에 
 2026-10-30 16:13:55 | INFO | transcription | Whisper chunk 전사 완료 | file=Week8_Part2.mp4 | chunk=28 | segments=43
 2026-10-30 16:13:55 | INFO | transcription | 음성 전사 완료 | file=Week8_Part2.mp4 | chunks=28 | segments=923 | text_length=23133
 2026-10-30 16:13:55 | INFO | transcription | 전사 작업 완료 | file=Week8_Part2.mp4 | segments=923 | text_length=23133
+2026-10-30 16:49:42 | INFO | transcription | 전사 작업 시작 | file=mp4
+2026-10-30 16:49:42 | INFO | transcription | 음성 전사 시작 | file=mp4 | chunk=120초
+2026-10-30 16:49:42 | INFO | transcription | Whisper 모델 로딩 시작 | model=small | device=cpu | compute_type=int8
+2026-10-30 16:49:45 | INFO | transcription | Whisper 모델 로딩 완료
+2026-10-30 16:49:45 | INFO | transcription | 미디어 정보 확인 | file=mp4 | duration=1578.14초 | duration=26.30분
+2026-10-30 16:49:45 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=1 | start=0.00 | end=120.00 | duration=120.00
+2026-10-30 16:49:45 | INFO | transcription | 오디오 배열 점검 | shape=(1919333,) | dtype=float32 | samples=1919333 | duration=119.96초 | memory=7.32MB
+2026-10-30 16:50:37 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=1 | segments=98
+2026-10-30 16:50:37 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=2 | start=120.00 | end=240.00 | duration=120.00
+2026-10-30 16:50:38 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:51:23 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=2 | segments=48
+2026-10-30 16:51:23 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=3 | start=240.00 | end=360.00 | duration=120.00
+2026-10-30 16:51:24 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:52:12 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=3 | segments=52
+2026-10-30 16:52:12 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=4 | start=360.00 | end=480.00 | duration=120.00
+2026-10-30 16:52:12 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:53:04 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=4 | segments=99
+2026-10-30 16:53:04 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=5 | start=480.00 | end=600.00 | duration=120.00
+2026-10-30 16:53:05 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:53:54 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=5 | segments=81
+2026-10-30 16:53:54 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=6 | start=600.00 | end=720.00 | duration=120.00
+2026-10-30 16:53:54 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:54:44 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=6 | segments=92
+2026-10-30 16:54:45 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=7 | start=720.00 | end=840.00 | duration=120.00
+2026-10-30 16:54:45 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:55:41 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=7 | segments=83
+2026-10-30 16:55:41 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=8 | start=840.00 | end=960.00 | duration=120.00
+2026-10-30 16:55:41 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:56:38 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=8 | segments=72
+2026-10-30 16:56:38 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=9 | start=960.00 | end=1080.00 | duration=120.00
+2026-10-30 16:56:38 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:57:32 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=9 | segments=58
+2026-10-30 16:57:32 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=10 | start=1080.00 | end=1200.00 | duration=120.00
+2026-10-30 16:57:32 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:58:21 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=10 | segments=54
+2026-10-30 16:58:21 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=11 | start=1200.00 | end=1320.00 | duration=120.00
+2026-10-30 16:58:21 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 16:59:14 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=11 | segments=92
+2026-10-30 16:59:14 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=12 | start=1320.00 | end=1440.00 | duration=120.00
+2026-10-30 16:59:15 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 17:00:07 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=12 | segments=70
+2026-10-30 17:00:07 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=13 | start=1440.00 | end=1560.00 | duration=120.00
+2026-10-30 17:00:08 | INFO | transcription | 오디오 배열 점검 | shape=(1920000,) | dtype=float32 | samples=1920000 | duration=120.00초 | memory=7.32MB
+2026-10-30 17:00:54 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=13 | segments=47
+2026-10-30 17:00:54 | INFO | transcription | Whisper chunk 전사 시작 | file=mp4 | chunk=14 | start=1560.00 | end=1578.14 | duration=18.14
+2026-10-30 17:00:54 | INFO | transcription | 오디오 배열 점검 | shape=(290224,) | dtype=float32 | samples=290224 | duration=18.14초 | memory=1.11MB
+2026-10-30 17:00:57 | INFO | transcription | Whisper chunk 전사 완료 | file=mp4 | chunk=14 | segments=4
+2026-10-30 17:00:57 | INFO | transcription | 음성 전사 완료 | file=mp4 | chunks=14 | segments=950 | text_length=13873
+2026-10-30 17:00:57 | INFO | transcription | 전사 작업 완료 | file=mp4 | segments=950 | text_length=13873
