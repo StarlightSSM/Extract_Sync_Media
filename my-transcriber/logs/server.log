@@ -47383,3 +47383,48 @@
 2026-11-02 17:27:51 | INFO | server | SERVER_SHUTDOWN
 2026-11-02 17:27:51 | INFO | server | Python 프로세스가 종료되었습니다.
 2026-11-02 17:27:51 | INFO | server | ============================================================
+2026-11-06 18:01:58 | INFO | server | ============================================================
+2026-11-06 18:01:58 | INFO | server | SERVER_START
+2026-11-06 18:01:58 | INFO | server | Flask 서버를 시작합니다.
+2026-11-06 18:01:58 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-11-06 18:01:58 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-11-06 18:01:58 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-11-06 18:01:58 | INFO | server | ============================================================
+2026-11-06 18:01:58 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-11-06 18:01:58 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-11-06 18:02:04 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:04] "GET / HTTP/1.1" 200 -
+2026-11-06 18:02:04 | WARNING | server | 404 Not Found | path=/favicon.ico
+2026-11-06 18:02:04 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-11-06 18:02:09 | INFO | server | ============================================================
+2026-11-06 18:02:09 | INFO | server | SERVER_SHUTDOWN
+2026-11-06 18:02:09 | INFO | server | Python 프로세스가 종료되었습니다.
+2026-11-06 18:02:09 | INFO | server | ============================================================
+2026-11-06 18:02:23 | INFO | server | ============================================================
+2026-11-06 18:02:23 | INFO | server | SERVER_START
+2026-11-06 18:02:23 | INFO | server | Flask 서버를 시작합니다.
+2026-11-06 18:02:23 | INFO | server | Upload folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\uploads
+2026-11-06 18:02:23 | INFO | server | Output folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\outputs
+2026-11-06 18:02:23 | INFO | server | Log folder: C:\Users\sumin\Desktop\Extract_Sync_Media\my-transcriber\logs
+2026-11-06 18:02:23 | INFO | server | ============================================================
+2026-11-06 18:02:23 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-11-06 18:02:23 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2026-11-06 18:02:27 | INFO | server | 파일 업로드 완료 | file=Week11_Part1.mp4
+2026-11-06 18:02:27 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:27] "POST /upload HTTP/1.1" 200 -
+2026-11-06 18:02:28 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:28] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:29 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:29] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:30 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:30] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:33 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:33] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:34 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:34] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:35 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:35] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:36 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:36] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:37 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:37] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:38 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:38] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:40 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:40] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:41 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:41] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:42 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:42] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:43 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:43] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:44 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:44] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:45 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:45] "GET /progress HTTP/1.1" 200 -
+2026-11-06 18:02:46 | INFO | werkzeug | 127.0.0.1 - - [06/Nov/2026 18:02:46] "GET /progress HTTP/1.1" 200 -
